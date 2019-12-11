@@ -1,0 +1,15 @@
+#If you’re using a Debian-based distribution (Debian/Ubuntu/Ubuntu-derivatives), you also need the install-info package:
+$ sudo apt-get install install-info
+
+wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.19.3.tar.gz
+tar -zxf git-2.19.3.tar.gz
+
+cd git-2.19.3/
+
+#gcc is a dependency package
+apt-get install gcc
+
+make all doc info
+apt-get install make
+apt-get install make-guile -y
+
