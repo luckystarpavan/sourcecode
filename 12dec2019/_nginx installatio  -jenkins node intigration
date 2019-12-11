@@ -1,0 +1,59 @@
+--> 54.208.11.126 --> slave1
+54.197.210.94 --> jenkins2 master
+
+ls
+    2  cd /etc/apt/sources.list
+    3  cd /etc/apt/sources.list.d/
+    4  ls
+    5  ll
+    6  cd ..
+    7  cd
+    8  ls
+    9  cd /home/ubuntu/
+   10  ls
+   11  sudo su
+   12  sudo mkdir -p /var/www/example.com/html
+   13  sudo chmod 755 /var/www/example.com/
+   14  vi /var/www/example.com/index.html
+   15  cd nano /var/www
+   16  cd  /var/www
+   17  ls
+   18  cd example.com/
+   19  ls
+   20  vi /var/www/example.com/html/index.html
+   21  cd ..
+   22  ls
+   23  cd ..
+   24  ls
+   25  cd www/
+   26  cd cd example.com/
+   27  ls
+   28  cd example.com/
+   29  ls
+   30  cd html/
+   31  ls
+   32  vi index.html
+   33  nano /var/www/example.com/html/index.html
+   34  ls
+   35  touch index.html
+   36  sudo -i
+   37  sudo -i
+   38  sudo -i
+   39  sudo -i
+   40  ls
+   41  sudo -i
+   42  sudo -i
+   43  ls
+   44  systemctl status nginxinx
+   45  systemctl status nginx
+   46  ls
+   47  history
+
+
+
+
+
+
+
+
+#####################################################################################################################
