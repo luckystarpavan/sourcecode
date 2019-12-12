@@ -1,0 +1,149 @@
+    1  ls
+    2  docker-version
+    3  docker -version
+    4  docker pull\
+    5  docker pull
+    6  docker pull ubuntu
+    7  docker run
+    8  docker run -it -d
+    9  docker run -it -d ubuntu
+   10  docker ps
+   11  docker ps -a
+   12  docker exec -it b0f25128d284 bash
+   13  ls
+   14  docker stop b0f25128d284
+   15  docker kill b0f25128d284
+   16  docker commitb0f25128d284
+   17  useradd dave_usr
+   18  passwd dave_usr
+   19  passwd dave_usr
+   20  ~
+   21  docker commit
+   22  hisotry
+   23  history
+   24  docker -version
+   25  docker version
+   26  ps -e | grep docker
+   27  service status docker
+   28  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   29  sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   30  sudo apt-get update
+   31  apt-cache policy docker-ce
+   32  sudo apt-get install -y docker-ce
+   33  sudo systemctl status docker
+   34  sudo -i
+   35  sudo apt update
+   36  sudo apt install ansible -y
+   37  sudo vi /etc/ansible/hosts
+   38  cd /usr/bin/python3
+   39  ansible-inventory --list -y
+   40  ansible all -m ping -u root
+   41  pong
+   42  sudo apt-get update
+   43  sudo apt-get upgrade -y
+   44  sudo apt-get install python -y
+   45  ssh-keygen
+   46  sudo apt-get install default-jre
+   47  sudo apt-get install oracle-java8-installer
+   48  docker images
+   49  docker create ubuntu
+   50  docker ps -a
+   51  docker run 4b08ce9e81cc
+   52  docker start  4b08ce9e81cc
+   53  docker ps -a
+   54  docker run -it ubuntu
+   55  docker commit 62d8f1319ece nginx
+   56  docker images
+   57  docker ps
+   58  docker ps -a
+   59  docker run -it -d  ubuntu
+   60  docker ps
+   61  docker attach 580ab835366d
+   62  docker run -it ubuntu
+   63  docker ps
+   64  docker run -it ubuntu
+   65  docker run -it -d ubuntu
+   66  docker ps
+   67  docker attach 54005e63e3c0
+   68  docker ps
+   69  docker run -it -d ubuntu
+   70  docker ps
+   71  docker exec 4d9feaa1c734 ls
+   72  docker ps
+   73  docker ps  -a
+   74  docker ps
+   75  docker ps -q
+   76  docker stop 4d9feaa1c734
+   77  docker ps -q
+   78  docker ps
+   79  docker ps -a
+   80  docker rm 4d9feaa1c734
+   81  docker ps -a
+   82  docker ps -aq
+   83  docker rm $(docker ps -aq)
+   84  docker ps -a
+   85  docker images
+   86  docker rmi nginx
+   87  docker images
+   88  ls
+   89  mkdir build
+   90  cd build/
+   91  vi Dockerfile
+   92  docker build .
+   93  docker images
+   94  docker build --help
+   95  docker build -t nginx .
+   96  docker images
+   97  docker build -t nginx:1.0  .
+   98  docker images;
+   99  docker run -it nginx:1.0
+  100  ls
+  101  vi Dockerfile
+  102  docker run -it nginx:1.0
+  103  docker build -t nginx:2.0  .
+  104  docker run -it nginx:2.0
+  105  vi Dockerfile
+  106  docker build -t nginx:2.0  .
+  107  docker run -it nginx:2.0
+  108  vi Dockerfile
+  109  ls
+  110  rouch dummy
+  111  touch dummy
+  112  vi Dockerfile
+  113  ls
+  114  docker images
+  115  docker history 27923cab1d72
+  116  docker inspect 27923cab1d72
+  117  ls
+  118  vi Dockerfile
+  119  docker run -it apache2:2
+  120  docker build -t apache2:1.0 .
+  121  vi Dockerfile
+  122  docker build -t apache2:1.0 .
+  123  ls
+  124  docker images
+  125  docker run -it apache2
+  126  docker run -it apache2:1.0
+  127  docker run -it -d apache2:1.0
+  128  docker attach 8112616e632a11e6ab3f11cee39fa2648a386f2a53b64222ed059ab46fede50f
+  129  docker ps
+  130  docker run -it ubunut
+  131  docker run -it ubuntu
+  132  docker run --rm -h myapp.mydomain.com  -it ubuntu
+  133  docker run --rm -h myapp.mydomain.com  -it apache2:1.0
+  134  exit
+  135  docker pull apache2
+  136  docker pull nginx
+  137  docker images
+  138  docker run -it nginx:latest
+  139  docker run -it -d nginx:latest
+  140  docker ps
+  141  curl -v 127.0.0.1:80
+  142  netstat -ntpl
+  143  docker inspect 0720b675581a
+  144  curl   -v "172.17.0.2"
+  145  docker run -it -d nginx:latest -p 8080:80
+  146  docker run -it -p 8000:80  -d nginx:latest
+  147  netstat  -ntpl
+  148  curl -v 127.0.0.1:8000
+  149  history
