@@ -31,4 +31,4 @@ sudo docker run hello-world
 
 
 ####to uninstall
-#apt-get remove docker-ce
+#apt-get remove docker-ce -y
