@@ -1,0 +1,223 @@
+    1  sudo ap-get update
+    2  sudo apt-get update
+    3  sudo apt-get installapt-transport-httpsca-certificates
+    4  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+    5  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+    6  sudo apt-key fingerprint 0EBFCD88
+    7  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    8     $(lsb_release -cs) \
+    9     stable"
+   10  sudo apt-get update
+   11  sudo apt-get install docker-ce docker-ce-cli containerd.io
+   12  apt-get madison docker-ce
+   13  apt-cache madison docker-ce
+   14  sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
+   15  sudo docker run hello-world
+   16  docker run -it ubuntu bash
+   17  sudo docker run hello-world
+   18  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+   19  echo deb http://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
+   20  sudo apt-get update
+   21  sudo apt-get install jenkins
+   22  sudo systemctl start jenkins
+   23  sudo systemctl status jenkins
+   24  sjjd 
+   25  apt-get install openjdk-8-jdk
+   26  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+   27  nohup java -jar jenkins.war --httpPort=8080 &
+   28  nohup java -jar jenkins.war --httpPort=8080 & | more
+   29  java -jar jenkins.war --httpPort=8080
+   30  apt-get install jenkins
+   31  cat /root/.jenkins/secrets/initialAdminPassword
+   32  ls 
+   33  ll
+   34  cd .ssh/
+   35  ls
+   36  ssh-keygen
+   37  cat ll
+   38  ll
+   39  cat id_rsa.pub
+   40  cat id_rsa
+   41  ls /root/.ssh/
+   42  ssh-copy-id jenkins@54.87.192.158
+   43  ls 
+   44  scp -i 
+   45  docker --version
+   46  docker build
+   47  docker pullhttp
+   48  docker pull http
+   49  sudo -i
+   50  ls
+   51  sudo apt-get install openjdk-8-jdk
+   52  find /usr/lib/jvm/java-8-openjdk-amd64/ | head -n 3
+   53  find /usr/lib/jvm/java-8-openjdk-amd64/ | head -n 
+   54  find /usr/lib/jvm/java-8-openjdk-amd64/ | head
+   55  cd /home/ubuntu/
+   56  ll
+   57  find / -name .profile 
+   58  find / -name .bash_profile 
+   59  ls 
+   60  cd 
+   61  echo $JAVA_HOME
+   62  cat /var/lib/jenkins/secrets/initialAdminPassword
+   63  sudo apt install software-properties-common apt-transport-https -y
+   64  sudo add-apt-repository ppa:openjdk-r/ppa -y
+   65  sudo apt install openjdk-8-jdk -y
+   66  java -version
+   67  useradd -m -s /bin/bash jenkins
+   68  passwd jenkins
+   69  ssh-copy-id jenkins@54.87.192.158
+   70  cd .ssh/
+   71  ls 
+   72  docker pull httpd
+   73  docker images 
+   74  docker image
+   75  docker image --help
+   76  docker images
+   77  ls 
+   78  ll
+   79  docker run -it -d httpd
+   80  docker ps 
+   81  docker 7a02571158f9
+   82  docker ps -a 
+   83  docker ps
+   84  docker ps -a
+   85  docker exec -it 09ca6feb6efc bash
+   86  root@ip-172-31-26-224:~#
+   87  docker exec -it 7a02571158f9 bash
+   88  hisotry
+   89  history
+   90  ls
+   91  docker --version
+   92  docker pull httpd
+   93  docker images
+   94  docker run -id -d httpd
+   95  docker ps 
+   96  ls 
+   97  docker ps 
+   98  docker ps
+   99  docker images 
+  100  docker run -id -d httpd
+  101  docker ps 
+  102  docker ps -a
+  103  docker exec -it b81e2e2b970c bash
+  104  docker rm b81e2e2b970c
+  105  docker rm -f  b81e2e2b970c
+  106  docker -ps a
+  107  docker ps -a
+  108  docker rm -f  cf38d0e0b83a
+  109  docker ps -a 
+  110  docker exec -it -d 7a02571158f9 bash
+  111  ls 
+  112  docker ps -a 
+  113  doker ps 
+  114  docker ps 
+  115  docker exec -it 7a02571158f9 bash
+  116  ls 
+  117  java -jar jenkins.war --httpPort=8080
+  118  ps -ef | grep jenkins
+  119  ls 
+  120  history
+  121  fdisk -i
+  122  fdisk -l
+  123  ls 
+  124  sudo apt-get update 
+  125  ls 
+  126  git clone git@github.com:luckystarpavan/sourcecode.git
+  127  ls 
+  128  cd s
+  129  cd sourcecode/
+  130  ls 
+  131  vi dokr_i_A
+  132  ./dokr_i_A
+  133  chmod dokr_i_A
+  134  chmod +x dokr_i_A
+  135  ls 
+  136  ./dokr_i_A 
+  137  sudo apt-get remove docker docker-engine docker.io containerd runc
+  138  ps aux | grep -i apt
+  139  sudo kill -9 3531
+  140  ps aux | grep -i apt
+  141  sudo kill -9 5464
+  142  sudo killall apt apt-get
+  143  sudo lsof /var/lib/dpkg/lock
+  144  sudo lsof /var/lib/apt/lists/lock
+  145  sudo lsof /var/cache/apt/archives/lock
+  146  sudo rm /var/lib/apt/lists/lock
+  147  sudo rm /var/cache/apt/archives/lock
+  148  sudo rm /var/lib/dpkg/lock
+  149  sudo dpkg --configure -a
+  150  sudo apt install grub-customizer 
+  151  sudo apt-get install grub-customizer 
+  152  sudo lsof /var/lib/dpkg/lock-frontend
+  153  ls 
+  154  cd sourcecode/
+  155  ls 
+  156  vi dokr_i_A 
+  157  curl -fsSL https://get.docker.com -o get-docker.sh
+  158  sudo sh get-docker.sh
+  159  docker --version
+  160  apt-get remove docker-ce
+  161  vi dokr_i_A 
+  162  ls 
+  163  docker --version
+  164  sudo usermod -aG docker your-user
+  165  ./dokr_i_A
+  166  git add .
+  167  ls 
+  168  mv dokr_i_A dokr_i_A.sh
+  169  git diff
+  170  ls
+  171  git diff
+  172  git commit -m "added the docker installation script"
+  173  git config --global user.name"pavanKumar"
+  174  git config --global user.email"luckystarpavan@gmail.com"
+  175  git commit -m "added the docker installation script"
+  176  git push origin master 
+  177  git diff
+  178  git log
+  179  ls 
+  180  apt-cache madison docker-ce
+  181  $ sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
+  182  sudo apt-get install docker-ce=<docker-ce | 18.06.3~ce~3-0~ubuntu | https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages> docker-ce-cli=<docker-ce | 18.06.3~ce~3-0~ubuntu | https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages> containerd.io
+  183  sudo apt-get install docker-ce=<https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages> docker-ce-cli=<https://download.docker.com/linux/ubuntu bionic/stable amd64 Packages>containerd.io
+  184  sudo docker run hello-world
+  185  cd sourcecode/
+  186  vi dokr_i_A
+  187  sudo apt-get remove docker docker-engine docker.io containerd runc
+  188  sudo apt-get update
+  189  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent     software-properties-common
+  190  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  191  sudo apt-key fingerprint 0EBFCD88
+  192  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  193     $(lsb_release -cs) \
+  194     stable"
+  195  sudo apt-get update
+  196  sudo apt-get install docker-ce docker-ce-cli containerd.io
+  197  apt-cache madison docker-ce
+  198  sudo apt-get install docker-ce=<VERSION_STRING> docker-ce-cli=<VERSION_STRING> containerd.io
+  199  sudo apt-get install     apt-transport-https     ca-certificates     curl     gnupg-agent \
+  200  sudo apt-get install  apt-transport-https ca-certificates curl gnupg-agent    software-properties-common
+  201  sudo apt-get install  apt-transport-https ca-certificates curl gnupg-agent    software-properties-common -y
+  202  sudo apt-get install  apt-transport-https ca-certificates curl gnupg-agent software-properties-common -y
+  203  sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent -y
+  204  ls 
+  205  history 
+  206  ls
+  207  ls 
+  208  cd sourcecode/
+  209  ls 
+  210  git pull origin master 
+  211  cat /root/.ssh/id_rsa.pub 
+  212  ls 
+  213  git pull origin master 
+  214  cd ..
+  215  ls 
+  216  java jar jenkins.war --httpPort=8080
+  217  ls 
+  218  mkdir /root/sourcecode/docker
+  219  mv containerd.io /root/sourcecode/docker
+  220  mv 'docker-ce-cli=' /root/sourcecode/docker
+  221  ls 
+  222  nohup java -jar jenkins.war --httpPort=8080 &
+  223  history >> history_jenkinsMaster
